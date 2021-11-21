@@ -1,0 +1,2 @@
+export const ADD_CONVERSION = 'ADD_CONVERSION';
+export const EMPTY_HISTORY = 'EMPTY_HISTORY';
