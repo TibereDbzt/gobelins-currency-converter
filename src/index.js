@@ -11,16 +11,6 @@ import GlobalStyle from "./styles/Global";
 
 const store = createStore(reducer);
 
-const path = require('path')
-console.log(path.resolve(__dirname, '../.env'));
-const res = require('dotenv').config({ path: path.resolve(__dirname, '/./../../.env') });
-
-// if (res.error) {
-//     throw res.error
-// }
-
-console.log(res.parsed)
-
 ReactDOM.render(
   <React.StrictMode>
       <Provider store={store}>

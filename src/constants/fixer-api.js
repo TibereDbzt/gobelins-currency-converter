@@ -1,7 +1,4 @@
-
-console.log(process.env);
-
-export const ACCESS_KEY = '0a6136939fa4c907b1f3ef4c53f50602\n';
+export const ACCESS_KEY = `${process.env.REACT_APP_FIXER_API_ACCESS_KEY}`;
 export const BASE_URL = 'http://data.fixer.io/api/';
 export const REQUEST_SYMBOLS = BASE_URL + 'symbols?access_key=' + ACCESS_KEY;
 export const DEFAULT_SYMBOL = 'EUR';
